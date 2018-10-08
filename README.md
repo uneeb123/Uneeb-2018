@@ -8,7 +8,6 @@ First install dependencies for the server
 Then install serve, which is going to be used for the client app.
 ```
 npm install -g serve
-serve -s client
 ```
 
 ## Testing steps
@@ -18,8 +17,10 @@ serve -s client
 The server runs on port 8000.
 
 2. Now that your server is up and running and ready to be consumed. Initiate the client.
-`cd client && npm start`
-This is initate a React.js app on port 3000.
+```
+serve -s client
+```
+This will initate a React.js app on port 5000.
 
 a. The first thing you will see is simple input displaying text area for entering password. Enter the password that you set on the server side.
 
